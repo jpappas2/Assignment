@@ -1,0 +1,101 @@
+body {
+    background-color: #436e80;
+    color: #2d2525;
+    background-image: linear-gradient(#258ba0, #96cce2);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #82c5de;
+    color: #150ca2;
+    line-height: 45px;
+    padding-top: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #82c5de;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover {
+    transition: all 0.5s ease;
+    color: #000000;
+}
+h1 {
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", Serif;
+    margin-top: 0;
+}
+h2 {
+    color: #1976D2;
+    font-family: Georgia, "Times New Roman", Serif;
+    text-shadow: 1px 1px #CCCCCC;
+}
+h3 {
+    color: #000033;
+    font-family: Georgia, "Times New Roman", Serif;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Serif;
+    padding: 2em;
+}
+dt {
+    color: #002171;
+}
+.learning {
+    color: #1976D2;
+    font-weight: bold;
+    font-style: italic;
+}
+#contact {
+    font-size: 90%;
+}
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #FFFFFF;
+    min-width: 960px;
+    max-width: 2048px;
+
+}
+main {
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: block;
+}
+#homePool {
+    height: 300px;
+    background-image: url("Pictures/lappool.jfif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#lifeguard {
+    height: 300px;
+    background-image: url("Pictures/lifegurad.jpg");
+    background-repeat: no-repeat;
+}
+
+form { display: grid;
+    flex-flow: column nowrap; }
+input, textarea { margin-bottom: .5em; }
+
+th {
+  background-color: #82E2EA;
+}
+
+td {
+    background-color: #D1FBFF;
+}
